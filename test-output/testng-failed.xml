@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.learn.testng.ParalletTest">
+        <methods>
+          <include name="vivo"/>
+        </methods>
+      </class> <!-- com.learn.testng.ParalletTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.learn.testng.ParalletTest">
+        <methods>
+          <include name="vivo"/>
+          <include name="cricket"/>
+        </methods>
+      </class> <!-- com.learn.testng.ParalletTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

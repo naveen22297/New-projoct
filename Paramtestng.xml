@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="Test">
+  <parameter name ="emailId" value="8681013950"></parameter>
+    <parameter name ="password" value="naveen"></parameter>
+    <classes>
+      <class name="com.learn.testng.LearnParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

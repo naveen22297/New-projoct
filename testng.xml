@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="Moto"></include>
+  <include name="Vivo"></include>
+ 
+  </run>
+  </groups>
+    <classes>
+   
+       <class name="com.learn.testng.GroupingExample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+  
+    <!--  <class name="com.learn.testng.Annotations"/>
+      <class name="com.learn.testng.SuiteExample"></class> -->
